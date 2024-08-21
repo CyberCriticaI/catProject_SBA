@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const likeBtn = document.getElementById('like-btn');
     const dislikeBtn = document.getElementById('dislike-btn');
 
-    
     async function fetchCatImage() {
         try {
             const response = await fetch(apiUrl, {
@@ -25,15 +24,22 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function animateButton(button) {
+        button.classList.add('clicked');
+        setTimeout(() => button.classList.remove('clicked'), 300);
+    }
+
     fetchCatImage();
 
     likeBtn.addEventListener('click', async () => {
         console.log('Cat liked!');
+        animateButton(likeBtn);
         await fetchCatImage();
     });
 
     dislikeBtn.addEventListener('click', async () => {
         console.log('Cat disliked!');
+        animateButton(dislikeBtn);
         await fetchCatImage();
     });
 });
