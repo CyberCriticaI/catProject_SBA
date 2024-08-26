@@ -8,14 +8,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="navbar">
+        <h1 class="navbar-title">Purrfect Match</h1>
+        <nav class="navbar-nav">
+            <button id="view-main" class="nav-button">Home</button>
+            <button id="view-feed" class="nav-button">Liked Feed</button>
+        </nav>
+    </header>
     <div class="container">
-        <h1 class="title">Purrfect Match</h1>
-        <div id="cat-image" class="cat-image">
-            <img id="cat-img" src="" alt="Cat Image">
+        <div id="main-content">
+            <div id="cat-image" class="cat-image">
+                <img id="cat-img" src="" alt="Cat Image">
+            </div>
+            <div class="buttons">
+                <button id="dislike-btn" class="dislike">Dislike</button>
+                <button id="like-btn" class="like">Like</button>
+            </div>
         </div>
-        <div class="buttons">
-            <button id="dislike-btn" class="dislike">Dislike</button>
-            <button id="like-btn" class="like">Like</button>
+        <div id="liked-feed" class="liked-feed hidden">
         </div>
     </div>
     <script src="app.js"></script>

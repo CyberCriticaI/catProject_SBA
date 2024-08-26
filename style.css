@@ -61,3 +61,102 @@ button {
 button:active {
     transform: scale(0.9);
 }
+
+.feed-title {
+    font-family: 'Roboto', sans-serif;
+    color: #99aab5;
+    font-size: 2em;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.liked-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.liked-feed img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2f3136;
+    color: #99aab5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.nav-button {
+    background: none;
+    color: #99aab5;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+    color: #ffffff;
+}
+
+
+.container {
+    text-align: center;
+    border: 2px solid #2f3136;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #2f3136;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 70px; /* Adjusted to account for the fixed navbar */
+}
+
+.hidden {
+    display: none;
+}
+
+.feed-title {
+    font-family: 'Roboto', sans-serif;
+    color: #99aab5;
+    font-size: 2em;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.liked-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.liked-feed img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
