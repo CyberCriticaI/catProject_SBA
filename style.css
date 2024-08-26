@@ -1,3 +1,5 @@
+/* main css */
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -62,6 +64,8 @@ button:active {
     transform: scale(0.9);
 }
 
+/* feed stuff */
+
 .feed-title {
     font-family: 'Roboto', sans-serif;
     color: #99aab5;
@@ -83,6 +87,8 @@ button:active {
     object-fit: cover;
     border-radius: 5px;
 }
+
+/* Navbar stuff */
 
 .navbar {
     position: fixed;
@@ -123,6 +129,7 @@ button:active {
     color: #ffffff;
 }
 
+/* feed stuff */
 
 .container {
     text-align: center;

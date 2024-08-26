@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainContent = document.getElementById('main-content');
     const viewMainBtn = document.getElementById('view-main');
     const viewFeedBtn = document.getElementById('view-feed');
-    
+
+    // API //
+
     let currentCatImage = '';
     let likedImages = [];
 
@@ -31,6 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error fetching cat image:', error);
         }
     }
+
+// additional stuff //
 
     function animateButton(button) {
         button.classList.add('clicked');
