@@ -28,6 +28,8 @@ body {
     font-weight: 700;
     }
 
+/* cat image */
+
 .cat-image {
     width: 600px;
     height: 600px;
@@ -42,6 +44,8 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+/* Buttons */
 
 .buttons {
     margin-top: 20px;
@@ -139,7 +143,7 @@ button:active {
     background-color: #2f3136;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
-    margin-top: 70px; /* Adjusted to account for the fixed navbar */
+    margin-top: 70px;
 }
 
 .hidden {

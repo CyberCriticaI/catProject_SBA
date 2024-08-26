@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-// additional stuff //
+// Functions //
 
     function animateButton(button) {
         button.classList.add('clicked');
